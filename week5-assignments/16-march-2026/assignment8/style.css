@@ -1,0 +1,24 @@
+.parent{
+ margin: 100px;
+ display: flex;
+ justify-content: center;
+ text-align: center;
+ gap: 20px;
+
+}
+.emp-card{
+    margin-top: 100px;
+    margin: auto;
+    width: 70%;
+    box-shadow: 0px 0px 15px gray;
+    padding: 20px;
+    border-radius: 20px ;
+    background-color: white;
+}
+img{
+    width: 80%;
+}
+body{
+background-image: url(https://static8.depositphotos.com/1491329/1068/i/450/depositphotos_10687188-stock-photo-foggy-landscape-early-morning-mist.jpg);
+background-size: 100%;
+}
