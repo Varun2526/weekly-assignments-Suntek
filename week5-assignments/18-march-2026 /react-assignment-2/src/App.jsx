@@ -7,7 +7,7 @@ function App() {
   return(
     <div className="flex flex-col min-h-screen bg-indigo-200">
       <Navbar />
-      <div className="m-10 " style={{minHeight: "75vh"}}>
+    <div className="m-10 min-h-screen">
         <Userlist />
       </div>
       <Footer />
