@@ -113,19 +113,19 @@ function AdminProfile() {
                   <div className="text-gray-600">{user.email}</div>
                 </td>
                 <td className="py-3 px-4">
-                  <span className={`px-2 py-1 rounded text-sm ${user.role === 'AUTHOR' ? 'bg-blue-100 text-blue-800' : 'bg-gray-200 text-gray-800'}`}>
+                  <p className={`inline-block px-2 py-1 rounded text-sm ${user.role === 'AUTHOR' ? 'bg-blue-100 text-blue-800' : 'bg-gray-200 text-gray-800'}`}>
                     {user.role}
-                  </span>
+                  </p>
                 </td>
                 <td className="py-3 px-4">
                   {user.isuseractive ? (
-                     <span className="px-2 py-1 rounded text-sm bg-green-100 text-green-800">
+                     <p className="inline-block px-2 py-1 rounded text-sm bg-green-100 text-green-800">
                      Active
-                   </span>
+                   </p>
                   ) : (
-                    <span className="px-2 py-1 rounded text-sm bg-red-100 text-red-800">
+                    <p className="inline-block px-2 py-1 rounded text-sm bg-red-100 text-red-800">
                       Blocked
-                    </span>
+                    </p>
                   )}
                 </td>
                 <td className="py-3 px-4">
