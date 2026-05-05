@@ -1,5 +1,23 @@
+/**
+ * @file UserModel.js
+ * @description Mongoose schema and model for User documents.
+ *              Supports three roles: USER, AUTHOR, ADMIN with profile images
+ *              and account activation status.
+ * @requires mongoose
+ */
+
 import { Schema, model } from "mongoose";
 
+/**
+ * User Schema Definition
+ * - firstName: Required display name
+ * - lastName: Optional last name
+ * - email: Required, must be unique (enforced at DB level)
+ * - password: Required, stored as bcrypt hash
+ * - role: Enum of USER, AUTHOR, or ADMIN
+ * - profileImageUrl: Cloudinary CDN URL for profile picture
+ * - isuseractive: Admin can toggle this to block/unblock users
+ */
 const userSchema = new Schema(
   {
     firstName: {
@@ -26,17 +44,17 @@ const userSchema = new Schema(
     profileImageUrl: {
       type: String,
     },
-    isuseractive:{
-        type:Boolean,
-        default:true
+    isuseractive: {
+        type: Boolean,
+        default: true  // New accounts are active by default
     }
   },
   {
-    timestamps: true,
-    versionKey: false,
-    strict: "throw",
+    timestamps: true,    // Adds createdAt and updatedAt fields automatically
+    versionKey: false,   // Removes __v field from documents
+    strict: "throw",     // Throws error if unknown fields are provided
   },
 );
 
-//create model
+// Create and export the Mongoose model (collection name: "users")
 export const UserModel = model("user", userSchema);

@@ -1,36 +1,53 @@
+/**
+ * @file UserAPI.js
+ * @description User-specific API routes — read articles and add comments.
+ *              All routes are protected and require USER role.
+ * @requires express, verifyToken, ArticleModel
+ */
+
 import exp from "express";
 import { verifyToken } from "../middlewares/VerifyToken.js";
 import { ArticleModel } from "../models/ArticleModel.js";
 export const userApp = exp.Router();
 
-//Read articles of all authors
+// ==========================================
+// GET /articles — Read all active articles from all authors
+// Protected: USER role only
+// Only returns articles where isArcticleActive is true
+// ==========================================
 userApp.get("/articles", verifyToken("USER"), async (req, res) => {
-  //read artcles
+  // Fetch only active (non-deleted) articles
   const articlesList = await ArticleModel.find({ isArcticleActive: true });
-  //send res
-  res.status(200).json({ message: "artciles", payload: articlesList });
+  res.status(200).json({ message: "articles", payload: articlesList });
 });
 
-//Add comment to an article
+// ==========================================
+// PUT /articles — Add a comment to an article
+// Protected: USER role only
+// Pushes a new comment object into the article's comments array
+// ==========================================
 userApp.put("/articles", verifyToken("USER"), async (req, res) => {
-  //get body from req
   const { articleId, comment } = req.body;
-  //check article
+
+  // Find the active article and populate user info in existing comments
   const articleDocument = await ArticleModel
                           .findOne({ _id: articleId, isArcticleActive: true })
-                           .populate("comments.user");
+                          .populate("comments.user");
 
   console.log(articleDocument);
-  //if article nbot found
+
   if (!articleDocument) {
     return res.status(404).json({ message: "Article not found" });
   }
-  //get user id
+
+  // Get the user's ID from the decoded JWT token
   const userId = req.user?.id;
-  //add comment to comments array of articleDocument
+
+  // Add the new comment with user reference to the comments array
   articleDocument.comments.push({ user: userId, comment: comment });
-  //save
+
+  // Save the updated document (triggers Mongoose middleware if any)
   await articleDocument.save();
-  //send res
+
   res.status(200).json({ message: "Comment added successfully", payload: articleDocument });
 });
