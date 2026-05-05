@@ -42,8 +42,3 @@ cd <project-folder>
 npm install
 npm run dev
 ```
-
-## 👤 Author
-
-**Varun** — Full-Stack Developer  
-[GitHub](https://github.com/Varun2526)
