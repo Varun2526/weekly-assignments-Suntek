@@ -1,4 +1,4 @@
-# 📚 ATP Weekly Assignments — Suntek Academy
+# ATP Weekly Assignments — Suntek Academy
 
 A comprehensive collection of weekly programming assignments completed during the **Advanced Training Program (ATP)** at Suntek Academy. This repository documents my learning journey from JavaScript fundamentals through full-stack MERN development.
 
@@ -24,7 +24,7 @@ A comprehensive collection of weekly programming assignments completed during th
 - **Cloud**: Cloudinary (image uploads)
 - **Tools**: Git, npm, REST Client
 
-## 🚀 Getting Started
+## Getting Started
 
 ```bash
 # Clone the repository
