@@ -1,5 +1,5 @@
 /**
- * @file assignmentadv3.js
+ * @file hof-employee-payroll.js
  * @description Employee Payroll Processor — salary calculations with
  *              department filtering and bonus computation.
  * @concepts filter() by property, map() for computed fields, reduce() for totals

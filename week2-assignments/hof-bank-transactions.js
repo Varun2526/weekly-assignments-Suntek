@@ -1,5 +1,5 @@
 /**
- * @file assignmentadv5.js
+ * @file hof-bank-transactions.js
  * @description Bank Transaction Analyzer — filter transaction types, extract
  *              amounts, calculate balance, and search transactions.
  * @concepts filter() by type, map() for extraction, reduce() with conditional logic

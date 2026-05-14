@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment7.js
+ * @file array-search.js
  * @description Function to find the index of a given element in an array.
  *              Returns "not found" if the element doesn't exist.
  * @concepts Functions, linear search, early return pattern

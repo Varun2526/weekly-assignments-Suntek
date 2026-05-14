@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment1.js
+ * @file compare-two-numbers.js
  * @description Compare two numbers and determine which is greater.
  * @concepts Variables, if-else conditional, template literals
  */

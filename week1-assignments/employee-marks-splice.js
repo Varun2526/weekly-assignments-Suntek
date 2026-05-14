@@ -1,5 +1,5 @@
 /**
- * @file day2-employee-marks.js
+ * @file employee-marks-splice.js
  * @description Employee records manipulation using array methods.
  *              Tasks: insert, remove, and modify employee objects using splice.
  * @concepts Objects, arrays, splice(), for...of loop

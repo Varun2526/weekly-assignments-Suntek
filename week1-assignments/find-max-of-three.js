@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment2.js
+ * @file find-max-of-three.js
  * @description Find the maximum among three numbers using nested conditionals.
  * @concepts Constants, logical AND (&&), if-else if-else chain
  */

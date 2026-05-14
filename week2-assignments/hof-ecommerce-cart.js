@@ -1,5 +1,5 @@
 /**
- * @file assignmentadv1.js
+ * @file hof-ecommerce-cart.js
  * @description E-commerce Shopping Cart Analyzer — real-world cart operations
  *              using filter, map, reduce, find, and findIndex.
  * @concepts Array HOFs on objects, computed properties, accumulator with objects

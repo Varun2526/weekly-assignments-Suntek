@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment6.js
+ * @file function-array-sum.js
  * @description Function that accepts an array and returns the sum of all elements.
  * @concepts Functions, arrays, for loop, accumulator pattern
  */

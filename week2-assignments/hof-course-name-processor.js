@@ -1,5 +1,5 @@
 /**
- * @file assignment2.js
+ * @file hof-course-name-processor.js
  * @description Online Course Name Processor — filter, transform, and concatenate
  *              course names using higher-order array methods.
  * @concepts filter(), map(), reduce() for string concatenation, find(), findIndex()

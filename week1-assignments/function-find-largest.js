@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment5.js
+ * @file function-find-largest.js
  * @description Function that accepts three numbers and returns the largest.
  * @concepts Function declaration, parameters, return values, >= operator
  */

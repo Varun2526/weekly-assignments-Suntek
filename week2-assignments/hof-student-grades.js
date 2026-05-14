@@ -1,5 +1,5 @@
 /**
- * @file assignmentadv2.js
+ * @file hof-student-grades.js
  * @description Student Grade System — comprehensive use of all five HOFs
  *              to filter, grade, average, and search student records.
  * @concepts filter(), map() with conditional logic, reduce(), find(), findIndex()

@@ -1,5 +1,5 @@
 /**
- * @file assignment1.js
+ * @file hof-temperature-analyzer.js
  * @description Daily Temperature Analyzer — process weather data using
  *              higher-order array methods (filter, map, reduce, find, findIndex).
  * @concepts Array HOFs, Celsius to Fahrenheit conversion, accumulator pattern

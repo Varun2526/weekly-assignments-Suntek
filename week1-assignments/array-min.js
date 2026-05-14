@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment4.js
+ * @file array-min.js
  * @description Find the minimum (smallest) element in an array.
  * @concepts Arrays, for loop, comparison-based minimum tracking
  */

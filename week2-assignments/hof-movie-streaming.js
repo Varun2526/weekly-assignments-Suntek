@@ -1,5 +1,5 @@
 /**
- * @file assignmentadv4.js
+ * @file hof-movie-streaming.js
  * @description Movie Streaming Recommendation — genre filtering, rating
  *              aggregation, and movie search using array HOFs.
  * @concepts filter() by category, map() for string formatting, reduce() for averages

@@ -1,5 +1,5 @@
 /**
- * @file day_1_assignment3.js
+ * @file array-sum.js
  * @description Calculate the sum of all elements in an array using a for loop.
  * @concepts Arrays, for loop, accumulator pattern
  */

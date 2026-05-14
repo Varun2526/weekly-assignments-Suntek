@@ -1,5 +1,5 @@
 /**
- * @file assignment3.js
+ * @file hof-student-marks.js
  * @description Student Marks Processor — process exam results with filtering,
  *              grace marks, finding highest mark, and searching.
  * @concepts filter(), map(), reduce() for max value, find(), findIndex()
