@@ -1,53 +1,49 @@
-# Week 3 — Node.js & Express REST APIs
+# 📕 Week 3 — Backend & API Development
 
-Backend development assignments focusing on building REST APIs with Express.js, progressing from in-memory storage to MongoDB with Mongoose.
+This folder contains assignments focused on backend development, including building REST API endpoints and defining data models for a product management system.
 
-## 📋 Assignments
+---
 
-| File | Topic | Description |
-|------|-------|-------------|
-| `day_1_productapi.js` | Express Router | Product CRUD API with in-memory array storage |
-| `day_2_ProductAPI.js` | Express + MongoDB | Product CRUD API with Mongoose models and JWT auth middleware |
+## 📁 Folder Structure
 
-## 💡 Concepts Covered
+```
+week-3/
+├── productAPI.js      # REST API routes for product CRUD operations
+└── productmodel.js    # Mongoose/data model schema for products
+```
 
-- Express.js Router and middleware
-- RESTful API design (GET, POST, PUT, DELETE)
-- Request parameters (`req.params`, `req.body`)
-- In-memory data storage → MongoDB/Mongoose persistence
-- Mongoose Models and CRUD operations (`find`, `findOne`, `findOneAndUpdate`, `findOneAndDelete`)
-- JWT token verification middleware
-- HTTP status codes (200, 201, 404)
-- ES6 module imports/exports
+---
 
-## 🔌 API Endpoints
+## 📝 Assignment Details
 
-### Day 1 — In-Memory Product API
-| Method | Endpoint | Description |
-|--------|----------|-------------|
-| GET | `/products` | Get all products |
-| POST | `/products` | Create a new product |
-| GET | `/products/:brand` | Get product by brand |
-| PUT | `/products` | Update a product |
-| DELETE | `/products/:id` | Delete a product by ID |
+| File | Description |
+|------|-------------|
+| `productAPI.js` | Defines RESTful API endpoints (GET, POST, PUT, DELETE) for managing products |
+| `productmodel.js` | Defines the product data model/schema with fields like name, price, description, etc. |
 
-### Day 2 — MongoDB Product API (with Auth)
-| Method | Endpoint | Auth | Description |
-|--------|----------|------|-------------|
-| POST | `/products` | ❌ | Create a new product |
-| GET | `/products` | ✅ | Get all products |
-| GET | `/products/:id` | ✅ | Get product by ID |
-| PUT | `/products/:id` | ✅ | Update product by ID |
-| DELETE | `/products/:id` | ✅ | Delete product by ID |
+---
 
 ## ▶️ How to Run
 
 ```bash
-# Install dependencies
-npm install
+# Navigate to the week-3 directory
+cd assignments/week-3
 
-# Start the server
-node server.js
+# Run the API server (may require additional setup like MongoDB)
+node productAPI.js
 ```
 
-> **Note**: Day 2 requires a MongoDB connection and JWT configuration.
+> **Note:** These files may require Node.js dependencies (e.g., Express, Mongoose). Make sure to install them via `npm install` if a `package.json` is present, or install individually:
+> ```bash
+> npm install express mongoose
+> ```
+
+---
+
+## 🎯 Learning Outcomes
+
+- Design and implement RESTful API endpoints
+- Define data models/schemas for database collections
+- Perform CRUD operations (Create, Read, Update, Delete)
+- Understand the Model–Route separation pattern in backend applications
+- Work with Node.js and Express for server-side development
