@@ -15,9 +15,7 @@ config();
  * Creates a middleware that verifies JWT tokens and enforces role-based access.
  * Uses a closure pattern — accepts roles, returns the actual middleware function.
  *
- * @param {...string} allowedRoles - Roles permitted to access the route (e.g., "USER", "AUTHOR", "ADMIN")
- * @returns {Function} Express middleware function
- *
+
  * @example
  * // Allow only AUTHORS
  * router.get("/articles", verifyToken("AUTHOR"), handler);
