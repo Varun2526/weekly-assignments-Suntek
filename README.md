@@ -38,6 +38,7 @@ A comprehensive collection of weekly programming assignments completed during th
 | Project | Live URL |
 |---------|----------|
 | Week 6 — Employee MERN App | [🔗 emp-app-two.vercel.app](https://emp-app-two.vercel.app) |
+| Week 7 — BlogApp (Capstone) | [🔗 blog-app-omega-kohl.vercel.app](https://blog-app-omega-kohl.vercel.app) |
 
 ## 🛠️ Tech Stack
 

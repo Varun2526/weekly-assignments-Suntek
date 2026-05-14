@@ -2,6 +2,10 @@
 
 A full-stack blog application built with the MERN stack as the capstone project. Features role-based access control (User, Author, Admin), article management, image uploads via Cloudinary, and JWT authentication.
 
+## 🚀 Live Demo
+
+**🔗 [https://blog-app-omega-kohl.vercel.app](https://blog-app-omega-kohl.vercel.app)**
+
 ## 🏗️ Architecture
 
 ```
