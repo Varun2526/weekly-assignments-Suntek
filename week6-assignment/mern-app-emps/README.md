@@ -2,6 +2,10 @@
 
 A full-stack CRUD application for managing employee records, built with the **MERN stack** (MongoDB, Express.js, React, Node.js). Demonstrates end-to-end data flow from a React frontend through a REST API to a MongoDB database.
 
+## 🚀 Live Demo
+
+**🔗 [https://emp-app-two.vercel.app](https://emp-app-two.vercel.app)**
+
 ---
 
 ## 🏗️ Architecture

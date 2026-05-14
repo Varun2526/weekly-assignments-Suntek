@@ -33,6 +33,12 @@ A comprehensive collection of weekly programming assignments completed during th
 | [Week 6](./week6-assignment/) | React & MERN | React, Node.js, Express, MongoDB | Hooks, Context API, Zustand, full MERN CRUD app |
 | [Week 7](./week7-assignment/) | Capstone Project | MERN Stack, Cloudinary, JWT | Full-stack BlogApp with auth, roles & admin panel |
 
+## 🚀 Deployed Applications
+
+| Project | Live URL |
+|---------|----------|
+| Week 6 — Employee MERN App | [🔗 emp-app-two.vercel.app](https://emp-app-two.vercel.app) |
+
 ## 🛠️ Tech Stack
 
 - **Languages**: JavaScript (ES6+), HTML5, CSS3

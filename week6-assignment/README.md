@@ -31,6 +31,8 @@ Advanced React assignments covering hooks (`useState`, `useEffect`, `useRef`), f
 
 ### mern-app-emps — Full MERN CRUD Application
 
+> 🚀 **Live Demo**: [https://emp-app-two.vercel.app](https://emp-app-two.vercel.app)
+
 A complete employee management system with:
 - **Backend**: Express.js REST API with MongoDB
 - **Frontend**: React with React Router, Zustand state management
