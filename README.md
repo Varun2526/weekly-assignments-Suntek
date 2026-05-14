@@ -1,5 +1,25 @@
 # ATP Weekly Assignments — Suntek Academy
 
+# 💻 Varun’s Full-Stack Development Portfolio
+
+Welcome to my personal repository documenting my journey through the **ATP Full-Stack Web Development Program**. This space highlights my growth as a developer — from learning programming fundamentals to building dynamic, real-world full-stack applications using modern technologies.
+
+---
+
+## ✨ About This Repository
+
+This repository represents six weeks of consistent learning, hands-on coding, and project development. Throughout this journey, I explored the foundations of web development and gradually advanced into building scalable applications with the **MERN Stack**.
+
+The program focuses on:
+- Strong JavaScript fundamentals
+- Responsive web design
+- Backend API development
+- Database integration
+- Modern frontend development with React
+- Full-stack application architecture
+
+---
+
 A comprehensive collection of weekly programming assignments completed during the **Advanced Training Program (ATP)** at Suntek Academy. This repository documents my learning journey from JavaScript fundamentals through full-stack MERN development.
 
 ## 🗂️ Repository Structure
